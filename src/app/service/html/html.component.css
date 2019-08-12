@@ -1,0 +1,14 @@
+.container {
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+    min-height: 100%;
+    align-items: center;
+}
+
+h1 {
+    min-width: 350px;
+    margin-right: 50px;
+}

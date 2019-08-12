@@ -1,0 +1,15 @@
+{
+  "PRAXIS": {
+    "BANNER": {
+      "H1": "<strong>C'est toujours une affaire.</strong> <br>Pas comme nous le savons.",
+      "P": [
+        "5Force implementiert die Essenz Ihres Unternehmens in schlagkräftige Lösungen. Unsere Innovation ist die Schnelligkeit. Flexibilität. und Interaktivität. In der Zusammenarbeit und der Lösung."
+      ]
+    },
+    "TITLE": "Hello Angular with ngx-translate!",
+    "SELECT": [
+      1,
+      2
+    ]
+  }
+}

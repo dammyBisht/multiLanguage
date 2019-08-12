@@ -1,0 +1,16 @@
+{
+  "PHP": {
+    "BANNER": {
+      "H1": "Technology & Ideas. <br><strong>Imagine.</strong> <br><strong>To invent.</strong> <br><strong>Realize.</strong>",
+      "P": [
+        "Digital, in the cloud and invisible. <strong>Forces</strong>, which move today's markets, are dynamic, intelligent and multi-faceted. The question of our time is how technologies can be combined with proven methods of entrepreneurial practice and how they can be sustainably interwoven. To develop real innovations organically. And to lead.",
+        "To bring innovation, strategy and sustainability into a triad means to go new and different ways. Thinking through value creation digitally - and to understand it as part of one's own organization."
+      ]
+    },
+    "TITLE": "Hello Angular with ngx-translate!",
+    "SELECT": [
+      1,
+      2
+    ]
+  }
+}

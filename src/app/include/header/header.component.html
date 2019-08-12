@@ -1,0 +1,19 @@
+<header id="header">
+  <div class="container clearfix">
+    <a routerLink="/" id="logo"><img src="assets/images/logo.png" alt="" width="105" height="21"></a>
+    <nav id="navigation">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active" *ngFor="let lang of 'HEADER.LINK' | translate"><a routerLink="/{{lang.cta}}"
+            routerLinkActive="active">
+            {{ lang.text }}</a></li>
+      </ul>
+    </nav>
+    <!-- <select #langSelect (change)="translate.use(langSelect.value)" class="pull-right">
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
+      </select> -->
+    <select #langSelect (change)="selectedLanguage(langSelect.value)" class="pull-right">
+      <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">
+        {{ lang }}</option>
+    </select>
+  </div>
+</header>

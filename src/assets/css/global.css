@@ -1,0 +1,223 @@
+/*
+::Table Of Content
+1.) @FontFace Style
+2.) Global TypoGraphy
+	2.1) Body Copy
+	2.2) Global Heading Elements
+	2.3) Alignment Classes
+	2.4) Address css
+	2.5) Global List
+3.) Global Form Elements
+4.) Button & Link Element
+5.) Helping Classes
+	5.1) Clear Style
+	5.2) Global Sprite Icon Style
+	5.3) Global Show Mobile Style
+	5.4) Float Style
+	5.5) Width Style
+6.) Header Section
+7.) Footer Section
+
+-------------------------------------*/
+
+/*
+1.) @FontFace Style
+-------------------------------------*/
+
+/*
+2.) Global TypoGraphy
+-------------------------------------*/
+
+/*2.1) Body Copy*/
+
+body, html {
+	height: 100%;
+}
+
+body {
+	color: #000;
+	font: normal 16px/1.47 'basier_squareregular', sans-serif;
+}
+
+p {
+	text-align: justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+p:last-child {
+	margin-bottom: 0px;
+}
+
+/*2.1) Body Copy End*/
+
+/*2.2) Global Heading*/
+
+h1 {}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+h5 {}
+
+h6 {}
+
+/*2.2) Global Heading End*/
+
+/*2.3) Alignment Classes*/
+
+.align-center {
+	text-align: center;
+}
+
+.align-center p {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+.align-left {
+	text-align: left;
+}
+
+/*2.3) Alignment Classes End*/
+
+/*2.4) Address css*/
+
+address {}
+
+/*2.4) Address css End*/
+
+/*2.5) Global List*/
+
+.defult {}
+
+.defult li {}
+
+/*2.5) Global List*/
+
+/*
+3.) Global Form Elements
+-------------------------------------*/
+
+::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #2f2f2d;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #2f2f2d;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+	/* IE 10+ */
+	color: #2f2f2d;
+	opacity: 1;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	color: #2f2f2d;
+	opacity: 1;
+}
+
+input, textarea {
+	outline: none;
+	-webkit-appearance: none;
+}
+
+/*
+4.) Button & Link Element
+-------------------------------------*/
+
+a {
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	color: inherit;
+}
+
+.btn {}
+
+/*
+5.) Helping Classes
+-------------------------------------*/
+
+/*5.1) Clear Style*/
+
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+	/* For IE 6/7 (trigger hasLayout) */
+}
+
+.clear {
+	clear: both;
+}
+
+/*5.1) Clear Style End*/
+
+/*5.2) Global Sprite Icon Style*/
+
+[class^="icon-"], .after-icon:after, .before-icon:before {
+	background: url(assets/images/sprite.png) no-repeat;
+	background-size: 250px 250px;
+	display: block;
+}
+
+.after-icon:after, .before-icon:before {
+	content: '';
+	position: absolute;
+}
+
+/*5.2) Global Sprite Icon Style End*/
+
+/*5.3) Global Show Mobile Style*/
+
+/*5.3) Global Show Mobile Style End*/
+
+/*5.4) Float Style*/
+
+.float-r {
+	float: right!important;
+}
+
+.float-l {
+	float: left!important;
+}
+
+/*5.4) Float Style End*/
+
+/*5.5) Width Style*/
+
+.main {
+	max-width: 954px;
+	margin: 0 auto;
+}
+
+/*5.5) Width Style End*/
+
+/*
+6.) Header Section
+-------------------------------------*/
+
+/*
+7.) Footer Section
+-------------------------------------*/

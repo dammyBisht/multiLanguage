@@ -1,0 +1,18 @@
+{
+  "HEADER": {
+    "LINK": [
+      {
+        "text": "Willkommen",
+        "cta": "home"
+      },
+      {
+        "text": "praxis",
+        "cta": "praxis"
+      },
+      {
+        "text": "Lösungen",
+        "cta": "service"
+      }
+    ]
+  }
+}

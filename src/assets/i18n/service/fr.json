@@ -1,0 +1,16 @@
+{
+  "SERVICES": {
+    "BANNER": {
+      "H1": "Technologie et idées. <br><strong>présent.</strong> <br><strong>inventer.</strong> <br><strong>convertir.</strong>",
+      "P": [
+        "Numérique, dans le nuage et invisible. Les <strong>forces</strong>, qui déplacent les marchés actuels, sont dynamiques, intelligentes et multiformes. La question de notre époque est de savoir comment les technologies peuvent être combinées avec des méthodes éprouvées de pratique entrepreneuriale et comment elles peuvent être tissées de manière durable. Développer de véritables innovations de manière organique. Et pour mener.",
+        "Intégrer innovation, stratégie et durabilité dans une triade signifie adopter des voies nouvelles et différentes. Penser numériquement à la création de valeur - et la comprendre dans le cadre de sa propre organisation."
+      ]
+    },
+    "TITLE": "Hello Angular with ngx-translate!",
+    "SELECT": [
+      1,
+      2
+    ]
+  }
+}

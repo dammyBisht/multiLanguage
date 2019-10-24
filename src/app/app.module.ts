@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DesignUtilitiesModule } from './appModules/design-utilities.module';
 import { HeaderComponent } from './include/header/header.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -14,6 +15,7 @@ import { HeaderComponent } from './include/header/header.component';
   declarations: [
     AppComponent,
     HeaderComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

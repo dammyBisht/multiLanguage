@@ -14,8 +14,7 @@
 <div class="container">
   <div class="flex" id="banner">
     <h1 [innerHTML]="'HOME.BANNER.H1' | translate"></h1>
-    <div class="content">
-      <p *ngFor="let P of 'HOME.BANNER.P' | translate" [innerHTML]="P"></p>
+    <div class="content" [innerHTML]="'HOME.BANNER.P' | translate">
     </div>
   </div>
 </div>

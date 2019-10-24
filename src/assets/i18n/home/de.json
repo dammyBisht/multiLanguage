@@ -3,8 +3,8 @@
     "BANNER": {
       "H1": "Technologie & Ideen. <br><strong>Vorstellen.</strong> <br><strong>Erfinden.</strong> <br><strong>Umsetzen.</strong>",
       "P": [
-        "Digital, in der Cloud und unsichtbar. <strong>Kräfte</strong>, die Märkte von heute bewegen, sind dynamisch, intelligent und facettenreich. Die Fragestellung unserer Zeit ist es, wie Technologien mit bewährten Methoden der Unternehmerpraxis zusammen- passen und nachhaltig verwoben werden können. Um echte Innovationen organisch zu entwickeln. Und zu führen.",
-        "Innovation, Strategie und Nachhaltigkeit in Dreiklang zu bringen heißt, neue und eigene Wege zu gehen. Die Wert- schöpfung digital zu durchdenken – und als Teil der eigenen Organisation zu verstehen."
+        "<p>Digital, in der Cloud und unsichtbar. <strong>Kräfte</strong>, die Märkte von heute bewegen, sind dynamisch, intelligent und facettenreich. Die Fragestellung unserer Zeit ist es, wie Technologien mit bewährten Methoden der Unternehmerpraxis zusammen- passen und nachhaltig verwoben werden können. Um echte Innovationen organisch zu entwickeln. Und zu führen.</p>",
+        "<p>Innovation, Strategie und Nachhaltigkeit in Dreiklang zu bringen heißt, neue und eigene Wege zu gehen. Die Wert- schöpfung digital zu durchdenken – und als Teil der eigenen Organisation zu verstehen.</p>"
       ]
     },
     "TITLE": "Hello Angular with ngx-translate!",

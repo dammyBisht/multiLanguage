@@ -27,7 +27,7 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    
+
     HtmlComponent,
     PhpComponent,
     ServiceComponent

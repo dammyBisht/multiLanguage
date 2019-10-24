@@ -2,14 +2,24 @@
     background: rgba(0, 0, 0, .02);
     padding: 10px 0;
     border-bottom: 1px solid rgba(0, 0, 0, .2);
-    position: absolute;
+    /* position: absolute;
     left: 0px;
     top: 0px;
-    width: 100%;
+    width: 100%; */
+    margin-bottom: 100px;
 }
 
 #logo {
     float: left;
     margin-right: 100px;
     padding: 10px 0;
+}
+
+#navigation {
+    font-size: 3.6em;
+}
+
+.language-changer {
+    font-size: 3.6em;
+    text-align: center;
 }

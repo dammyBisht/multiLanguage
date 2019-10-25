@@ -16,8 +16,12 @@
     <h1 [innerHTML]="'HOME.BANNER.H1' | translate"></h1>
     <div class="content" [innerHTML]="'HOME.BANNER.P' | translate">
     </div>
+  </div>
+  <div class="flex" id="banner">
     <!-- <div class="content">
       <p *ngFor="let P of 'HOME.BANNER.P' | translate" [innerHTML]="P"></p>
     </div> -->
+    <h1 [innerHTML]="'HOME.BANNER.H1' | translate"></h1>
+    <p *ngFor="let para of 'HOME.BANNER.para' | translate" [innerHTML]="para"></p>
   </div>
 </div>

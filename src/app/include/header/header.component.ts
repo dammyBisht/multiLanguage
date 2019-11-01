@@ -21,7 +21,7 @@ export class HeaderComponent implements OnInit {
     translate.use('fr');
 
     this.browserLang = translate.getDefaultLang();
-    console.log(this.browserLang)
+    //console.log(this.browserLang)
     this.languageChanged()
     this._designUtilitiesService.selectedLang.next(this.browserLang)
   }
@@ -29,9 +29,9 @@ export class HeaderComponent implements OnInit {
     this.translate.use(this.browserLang.match(/en|fr|de/) ? this.browserLang : 'en');
   }
   selectedLanguage($event) {
-    console.log($event);
+    //console.log($event);
     this._designUtilitiesService.selectedLang.next($event);
-    config.scanFunc();
+    config.scanFunc('.component');
   }
   ngOnInit() {
   }

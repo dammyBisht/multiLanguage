@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { DesignUtilitiesService } from 'src/app/appServices/design-utilities.service';
+import { config } from '../config';
 
 @Component({
   selector: 'app-service',
@@ -17,6 +18,9 @@ export class ServiceComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+  ngAfterViewInit() {
+    config.scanFunc('.component');
   }
 
 }

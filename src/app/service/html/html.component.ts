@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DesignUtilitiesService } from 'src/app/appServices/design-utilities.service';
 import { TranslateService } from '@ngx-translate/core';
+import { config } from 'src/app/config';
 
 @Component({
   selector: 'app-html',
@@ -17,6 +18,9 @@ export class HtmlComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+  ngAfterViewInit() {
+    config.scanFunc('.component');
   }
 
 }

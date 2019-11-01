@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DesignUtilitiesService } from '../appServices/design-utilities.service';
 import { TranslateService } from '@ngx-translate/core';
+import { config } from '../config';
 
 @Component({
   selector: 'app-home',
@@ -21,6 +22,9 @@ export class HomeComponent implements OnInit {
     // });
   }
   ngOnInit() {
+  }
+  ngAfterViewInit() {
+    config.scanFunc('.component');
   }
 
 }

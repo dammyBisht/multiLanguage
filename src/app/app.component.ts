@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(private router: Router, private activatedRoute: ActivatedRoute) {
     router.events.subscribe((event: RouterEvent) => {
       if (event instanceof NavigationEnd) {
-        config.scanFunc();
+        //config.scanFunc('.component');
       }
     });
   }

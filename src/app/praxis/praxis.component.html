@@ -1,11 +1,11 @@
 <!-- <div>
-  <h2>{{ 'HOME.TITLE' | translate }}</h2>
-  <span *ngFor="let home of 'HOME.SELECT' | translate ">
-    {{ home }}
+  <h2>{{ 'PRAXIS.TITLE' | translate }}</h2>
+  <span *ngFor="let PRAXIS of 'PRAXIS.SELECT' | translate ">
+    {{ PRAXIS }}
   </span>
  
   <label> -->
-<!-- {{ 'HOME.SELECT' | translate }} -->
+<!-- {{ 'PRAXIS.SELECT' | translate }} -->
 <!-- <select #langSelect (change)="translate.use(langSelect.value)">
       <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
     </select>
@@ -13,8 +13,7 @@
 </div>-->
 <div class="container component">
   <div class="flex" id="banner">
-    <h1 [innerHTML]="'HOME.BANNER.H1' | translate"></h1>
-    <div class="content" [innerHTML]="'HOME.BANNER.P' | translate">
-    </div>
+    <h1 [innerHTML]="'PRAXIS.BANNER.H1' | translate"></h1>
+    <p *ngFor="let para of 'PRAXIS.BANNER.P' | translate" [innerHTML]="para"></p>
   </div>
 </div>

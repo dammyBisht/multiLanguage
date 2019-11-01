@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { DesignUtilitiesService } from 'src/app/appServices/design-utilities.service';
+import { config } from 'src/app/config';
 
 @Component({
   selector: 'app-php',
@@ -17,6 +18,9 @@ export class PhpComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+  ngAfterViewInit() {
+    config.scanFunc('.component');
   }
 
 }

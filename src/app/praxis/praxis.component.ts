@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { DesignUtilitiesService } from '../appServices/design-utilities.service';
+import { config } from '../config';
 
 @Component({
   selector: 'app-praxis',
@@ -17,6 +18,9 @@ export class PraxisComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+  ngAfterViewInit() {
+    config.scanFunc('.component');
   }
 
 }

@@ -1,9 +1,9 @@
 declare var jQuery: any;
 
 export var config = {
-    scanFunc: () => {
+    scanFunc: (componentName) => {
         setTimeout(function () {
-            jQuery('.component').each(function () {
+            jQuery(componentName).each(function () {
                 var eachCount = 0;
                 var oldAttr = '';
                 var thisElement = jQuery(this);
@@ -14,7 +14,7 @@ export var config = {
                         thisElement.find('*').removeAttr(oldAttr);
                         thisElement.find('*').attr(this.name, true);
                         oldAttr = this.name;
-                        console.log(this.name);
+                        //console.log(this.name);
                         eachCount = 1;
                     }
                 });

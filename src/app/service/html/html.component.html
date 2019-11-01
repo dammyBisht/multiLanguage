@@ -1,12 +1,12 @@
 y
 <!-- <div>
-  <h2>{{ 'HOME.TITLE' | translate }}</h2>
-  <span *ngFor="let home of 'HOME.SELECT' | translate ">
-    {{ home }}
+  <h2>{{ 'HTML.TITLE' | translate }}</h2>
+  <span *ngFor="let HTML of 'HTML.SELECT' | translate ">
+    {{ HTML }}
   </span>
  
   <label> -->
-<!-- {{ 'HOME.SELECT' | translate }} -->
+<!-- {{ 'HTML.SELECT' | translate }} -->
 <!-- <select #langSelect (change)="translate.use(langSelect.value)">
       <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
     </select>
@@ -14,8 +14,9 @@ y
 </div>-->
 <div class="container component">
   <div class="flex" id="banner">
-    <h1 [innerHTML]="'HOME.BANNER.H1' | translate"></h1>
-    <div class="content" [innerHTML]="'HOME.BANNER.P' | translate">
-    </div>
+    <h1 [innerHTML]="'HTML.BANNER.H1' | translate"></h1>
+    <!-- <div class="content" [innerHTML]="'HTML.BANNER.P' | translate">
+    </div> -->
+    <p *ngFor="let para of 'HTML.BANNER.P' | translate" [innerHTML]="para"></p>
   </div>
 </div>

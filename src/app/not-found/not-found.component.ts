@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DesignUtilitiesService } from '../appServices/design-utilities.service';
 import { TranslateService } from '@ngx-translate/core';
+import { config } from '../config';
 
 @Component({
   selector: 'app-not-found',
@@ -16,6 +17,9 @@ export class NotFoundComponent implements OnInit {
     translate.addLangs(['en', 'fr', 'de']);
   }
   ngOnInit() {
+  }
+  ngAfterViewInit() {
+    config.scanFunc('.component');
   }
 
 

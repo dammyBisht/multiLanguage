@@ -116,22 +116,22 @@ address {}
 /*2.6) Global List*/
 
 .default {
-	font-size: 1.25em;
+	font-size: 3em;
 	line-height: 2;
 	margin-bottom: 60px;
 }
 
 .default li {
 	position: relative;
-	padding-left: 8px;
+	padding-left: 12px;
 }
 
 .default li:before {
-	width: 3px;
-	height: 3px;
+	width: 5px;
+	height: 5px;
 	position: absolute;
 	left: 0;
-	top: 11px;
+	top: 16px;
 	background: #000;
 	content: "";
 	border-radius: 50%;
@@ -350,41 +350,5 @@ a {
 /*6.) Header Section End*/
 
 /*8.2) 404 Section Start*/
-
-.errorPage {
-	min-height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding: 0 0 50px;
-}
-
-.errorPage h2 {
-	line-height: 1;
-	margin: 0;
-	padding: 0;
-	font-size: 25px;
-}
-
-.errorPage h2+span {
-	font-size: 180px;
-	display: block;
-	line-height: .8;
-	letter-spacing: -25px;
-	text-shadow: 5px 2px #ccc;
-	margin: 0 0 10px;
-}
-
-.errorPage p {
-	padding: 0 20px;
-}
-
-.errorPage .err-home {
-	display: inline-block;
-	padding: 5px 10px;
-	background: #53da9a;
-	color: #fff;
-}
 
 /*8.2) 404 Section End*/

@@ -1,28 +1,36 @@
+
 .errorPage {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0 0 50px;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 0 50px;
 }
 
 .errorPage h2 {
-    line-height: 1;
-    margin: 0;
-    padding: 0;
-    font-size: 25px;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
 }
 
 .errorPage h2+span {
-    font-size: 180px;
-    display: block;
-    line-height: .8;
-    letter-spacing: -25px;
-    text-shadow: 5px 2px #ccc;
-    margin: 0 0 10px;
+	font-size: 180px;
+	display: block;
+	line-height: .8;
+	letter-spacing: -25px;
+	text-shadow: 5px 2px #ccc;
+	margin: 0 0 10px;
 }
 
 .errorPage p {
-    padding: 0 20px;
+	padding: 0 20px;
+}
+
+.errorPage .err-home {
+	display: inline-block;
+	padding: 5px 10px;
+	background: #53da9a;
+	color: #fff;
 }

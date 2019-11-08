@@ -42,6 +42,14 @@ const routes: Routes = [
     }
   },
   {
+    path: "multilanguage",
+    loadChildren: './multilanguage/multilanguage.module#MultilanguageModule',
+    data: {
+      title: 'Title of website',
+      description: 'Description on page',
+    }
+  },
+  {
     path: "404",
     component: NotFoundComponent,
     data: {

@@ -15,11 +15,19 @@ const routes: Routes = [
     children: [
       {
         path: 'html',
-        component: HtmlComponent
+        component: HtmlComponent,
+        data: {
+          title: 'Title of website',
+          description: 'Description on page HTML',
+        }
       },
       {
         path: 'php',
-        component: PhpComponent
+        component: PhpComponent,
+        data: {
+          title: 'Title of website',
+          description: 'Description on page PHP',
+        }
       },
     ]
   }

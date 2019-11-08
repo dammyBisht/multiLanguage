@@ -11,23 +11,43 @@ const routes: Routes = [
   },
   {
     path: "index",
-    loadChildren: './home/home.module#HomeModule'
+    loadChildren: './home/home.module#HomeModule',
+    data: {
+      title: 'Title of website',
+      description: 'Description on page',
+    }
   },
   {
     path: "home",
-    loadChildren: './home/home.module#HomeModule'
+    loadChildren: './home/home.module#HomeModule',
+    data: {
+      title: 'Title of website',
+      description: 'Description on page',
+    }
   },
   {
     path: "service",
-    loadChildren: "./service/service.module#ServiceModule"
+    loadChildren: "./service/service.module#ServiceModule",
+    data: {
+      title: 'Title of website',
+      description: 'Description on page',
+    }
   },
   {
     path: "praxis",
-    loadChildren: './praxis/praxis.module#PraxisModule'
+    loadChildren: './praxis/praxis.module#PraxisModule',
+    data: {
+      title: 'Title of website',
+      description: 'Description on page',
+    }
   },
   {
     path: "404",
-    component: NotFoundComponent
+    component: NotFoundComponent,
+    data: {
+      title: 'Title of website',
+      description: 'Description on page',
+    }
   },
   {//Page not found
     path: "**",

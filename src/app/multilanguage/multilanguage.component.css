@@ -4,7 +4,7 @@ ul{
 ul li{
     margin-bottom: 10px;
 }
-ul li *{
+ul li > *{
     display: block;
     margin-top: 10px;
 }

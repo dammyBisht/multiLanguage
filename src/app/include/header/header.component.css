@@ -23,3 +23,16 @@
     font-size: 3.6em;
     text-align: center;
 }
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav ul{
+    position: absolute;
+    left:0;
+    top: 100%;
+    white-space: nowrap;
+    padding: 10px;
+    background: rgb(231, 231, 231);
+    border-radius: 5px;
+    font-size: .8em;
+}

@@ -3,9 +3,9 @@
   <ul>
     <li><strong>npm install @ngx-translate/core --save</strong></li>
     <li>Step 1: Create a JSON file inside of assets/i18n/pageName</li>
-    <li>Step 2: Add JSON file in design-utilities.module.ts</li>
+    <li>Step 2: Add JSON file on self module or language-change.module</li>
     <li>Step 3: Add component class on parent div</li>
-    <li>Step 4: Add "DesignUtilitiesModule" file on component module.ts</li>
+    <li>Step 4: Add "language-change.module" file on app.module.ts</li>
     <li>Step 5: Add TranslateService on .ts file "public translate: TranslateService"</li>
     <li>Step 6: Add DesignutilityService on .ts file "private _designUtility: DesignutilityService"</li>
     <li>Step 7: Add below mentioned code inside of constructor:
@@ -35,9 +35,9 @@
 
     <li>Step 10: HOW TO ADD DATA IN HTML
       <ul>
-        <li>1: If you want to add HTML tag = [innerHTML]="'UBER.hinweis-cookies.heading' | translate"</li>
-        <li>2: If you want to add only text = {{ 'UBER.hinweis-cookies.A.text' | translate }}</li>
-        <li>3: If you want to add data in loop = *ngFor="let P of 'UBER.inside-force.p' | translate" [innerHTML]="P"
+        <li>1: If you want to add HTML tag = <pre>[innerHTML]="'UBER.hinweis-cookies.heading' | translate"</pre></li>
+        <li>2: If you want to add only text = <pre>&#123;&#123;<span> 'UBER.hinweis-cookies.A.text' &#124; translate</span> &#125;&#125;</pre></li>
+        <li>3: If you want to add data in loop = <pre>*ngFor="let P of 'UBER.inside-force.p' | translate" [innerHTML]="P"</pre>
         </li>
       </ul>
     </li>

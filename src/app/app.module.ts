@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DesignUtilitiesModule } from './appModules/design-utilities.module';
 import { HeaderComponent } from './include/header/header.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { LanguageChangeModule } from './appModules/language-change.module';
 
 
 
@@ -20,7 +21,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DesignUtilitiesModule
+    DesignUtilitiesModule,
+    LanguageChangeModule
   ],
   providers: [TranslateService],
   bootstrap: [AppComponent]

@@ -10,7 +10,7 @@ import { config } from '../config';
 })
 export class HomeComponent implements OnInit {
   browserLang;
-  param = { value: 'dummy' };
+  param = { value: 'dummy value' };
   constructor(public translate: TranslateService, private _designUtilitiesService: DesignUtilitiesService) {
     this._designUtilitiesService.selectedLang.subscribe(res => {
       translate.setDefaultLang(res);

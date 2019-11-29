@@ -6,12 +6,16 @@ import { NotFoundComponent } from './not-found/not-found.component';
 const routes: Routes = [
   {
     path: "",
-    redirectTo: '/index',
+    loadChildren: './home/home.module#HomeModule',
+    data: {
+      title: 'Title of website',
+      description: 'Description on page',
+    },
     pathMatch: 'full'
   },
   {
     path: "index",
-    loadChildren: './home/home.module#HomeModule',
+    redirectTo: '/',
     data: {
       title: 'Title of website',
       description: 'Description on page',

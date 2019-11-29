@@ -6,6 +6,14 @@
         <li routerLinkActive="active" *ngFor="let lang of 'HEADER.LINK' | translate"><a routerLink="/{{lang.cta}}"
             routerLinkActive="active">
             {{ lang.text }}</a></li>
+            <li>
+              <a>Options</a>
+              <ul>
+                <li>
+                  <a routerLink="/multilanguage">Multi Language</a>
+                </li>
+              </ul>
+            </li>
       </ul>
     </nav>
     <!-- <select #langSelect (change)="translate.use(langSelect.value)" class="pull-right">

@@ -12,12 +12,8 @@
   </label> 
 </div>-->
 <div class="container component">
-  <ul class="default">
-    <li>
-        <a routerLink="/multilanguage">Multi Language</a>
-    </li>
-  </ul>
-  <div class="flex" id="banner">
+  
+  <div id="banner">
     <!-- <h1 [innerHTML]="'HOME.BANNER.H1' | translate"></h1> -->
     <h1 [innerHTML]="'HOME.BANNER.H1' | translate:{value: 'world'}"></h1>
     <!-- <div class="content" [innerHTML]="'HOME.BANNER.P' | translate:{value: 'world'}"> -->
@@ -25,7 +21,7 @@
     </div>
     <!-- <div class="content" [innerHTML]="'HOME.BANNER.s' | translate:param"></div> -->
   </div>
-  <div class="flex" id="banner">
+  <div id="banner">
     <!-- <div class="content">
       <p *ngFor="let P of 'HOME.BANNER.P' | translate" [innerHTML]="P"></p>
     </div> -->

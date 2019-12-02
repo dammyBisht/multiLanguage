@@ -1,7 +1,11 @@
 .container {
     height: 100%;
 }
-
+#banner{
+    position: relative;
+    padding-bottom: 200px;
+    margin-bottom: 100px;
+}
 .flex {
     display: flex;
     min-height: 100%;

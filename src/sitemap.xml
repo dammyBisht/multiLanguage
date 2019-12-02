@@ -9,4 +9,5 @@
 <url>
     <loc>siteURL</loc>
     <xhtml:link rel="alternate" hreflang="de" href="siteURL"/>
+    <xhtml:link rel="alternate" hreflang="en" href="siteURL"/>
   </url>
